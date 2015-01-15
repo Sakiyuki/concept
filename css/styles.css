@@ -1,0 +1,136 @@
+body{ 
+	background-image: url(../images/bodybg.gif);
+	font-family: "Open Sans",arial, helvetica, sans-serif;
+	margin:0;
+
+
+}
+.pageHeader{background: -moz-linear-gradient(top,  rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.3)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.3) 0%,rgba(0,0,0,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+box-shadow: 0 2px 3px #999;
+}
+.visuallyHidden{position: absolute;
+			left:-9999px;
+
+}
+.wrapperContainer{
+	width:960px;
+	margin:0 auto;
+}
+.logoAdd{float:left;
+
+}
+.logoAdd a{
+	width:224px;
+	height:76px;
+	display:block;
+	background-image: url(../images/conceptlogo.svg);
+	text-indent: -9999px;
+
+}
+.mainNav {padding: 0;
+		list-style: none;
+		float:right;
+		clear: right;
+	/*this is how you make padding and inline*/
+
+}
+.mainNav a {
+	font-family: "Oswald",arial, helvetica, sans-serif;
+	color:#121b6a;
+	font-weight:bold;
+	text-decoration: none;
+	padding: 0 20px;
+}
+.mainNav li{display: inline;
+
+
+}
+.secondNav a{
+			font-size: 11px;
+			text-decoration: none;
+			padding: 0 20px;
+
+}
+.secondNav {padding: 0;
+			float:right;
+			
+}
+
+.secondNav li{
+			display: inline;
+
+}
+
+/* THE ALMIGHTY CLEARFIX */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+}
+.productBackground{background-image: url(../images/productbg.png);
+	background-repeat: no-repeat;
+	
+
+}
+.suggestedProducts h2{font-family: "Oswald",arial, helvetica, sans-serif;
+						color:#121b6a;
+
+
+}
+.mainContainer {width:960px;
+				margin:0 auto;
+
+
+}
+
+.leftColumn {width:530px;
+		float:left;
+
+}
+.rightColumn {width:430px;
+			float:left;	
+
+
+}
+.suggestedProduct{ width: 50%;
+					float:left;
+					text-align: center;
+					font-size: 12px;
+
+
+
+
+
+}
+.price{ font-weight: bold;
+}
+.salePrice{ color: #b42742;
+}
+
+.oldPrice{color: #b7b3b4;
+
+
+
+}
+.rightColumn h2 { font-family: "Oswald",arial, helvetica, sans-serif;
+	color:#121b6a;
+	font-weight:bold;
+	font-size: 30px;
+	
+	
+
+
+}
+
